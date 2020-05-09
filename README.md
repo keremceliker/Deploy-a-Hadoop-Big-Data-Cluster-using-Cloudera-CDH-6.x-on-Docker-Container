@@ -23,8 +23,7 @@ Our goal in this article is to Demo-Test How We can Quick-Deploy a Apache Hadoop
 -	1 x Management Node
 -	4 x DataNode
 
-> Don't Forget put Architectural Image to here !!! <<<<<<< !!!
-
+![aws-diagram](images/Hadoop_Docker.JPG)
 
 
 
@@ -49,16 +48,14 @@ Our goal in this article is to Demo-Test How We can Quick-Deploy a Apache Hadoop
   - Install latest version of [Oracle JDK 1.8](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 
 
-## Infrastructure Diagram on ?????? <<<<<< !!!
+## Infrastructure Diagram on Hadoop Cluster CDH 
 
-
+![aws-diagram](images/Hadoop.JPG)
 
 
 1- **Install Linux OS on VMware 7 or VCF 4 (CloudFoundation)**
 
-
-
-
+![aws-diagram](images/VCF.JPG)
 
 2- **Prepare Linux OS Nodes for Hadoop Setup by Cloudera CDH**
 ```
@@ -182,6 +179,15 @@ Upload the All Result file into the root of HDFS
 
 ![aws-diagram](images/27.JPG)
 
+## Result
 
 **It's Cool and Fun, huh ? :-) Big Data and Machine Learning will no-doubtedly be so important to all of us now and beyond for sure !**
+
+
+## References
+
+https://www.cloudera.com/
+https://www.cloudera.com/products/open-source/apache-hadoop.html
+https://hadoop.apache.org/docs/current/hadoop-project-dist/hadoop-hdfs/HdfsDesign.html
+
 
