@@ -19,9 +19,9 @@ Our goal in this article is to Demo-Test How We can Quick-Deploy a Apache Hadoop
 
 *I didn't mention the all details because it's only POC Demo.
 
-2 x NameNode will be redundant as Master & Slave.
-1 x Management Node
-4 x DataNode
+-	2 x NameNode will be redundant as Master & Slave.
+-	1 x Management Node
+-	4 x DataNode
 
 > Don't Forget put Architectural Image to here !!! <<<<<<< !!!
 
