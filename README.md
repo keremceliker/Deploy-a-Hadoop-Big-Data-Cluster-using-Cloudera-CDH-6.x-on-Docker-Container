@@ -1,4 +1,4 @@
-# Deploy a Apache Hadoop Big Data Cluster Server using Cloudera CDH 6.x on Docker Container
+# Deploy a Apache Hadoop Big Data Cluster Server using Cloudera CDH 6.x on Docker/Centos Container
 *Written by Kerem ÇELİKER*
 - Twitter: **`@CloudRss`**
 - Linkedin: **`linkedin.com/in/keremceliker`**
