@@ -139,15 +139,13 @@ My preference is MySql but you can use it on PostgreSQL,MongoDB,MariaDB
 Why would you like to skip ??  => If you re behind firewall with no internet access ! :-)
 ```
 6- **Access the Hadoop Namenode via Cloudera Manager**
+
+![aws-diagram](images/22.JPG)
+
 ```
 [root@keremdevops-]# sudo systemctl start cloudera-scm-server
 http://localhost:7180 for Login to Cloudera Manager Dashboard
 Username: Admin | Password: Admin
-
-
-![aws-diagram](images/22.JPG)
-
-
 ```
 7- **Final Configuration and Start Hadoop Sandbox Cloudera CDH**
 
