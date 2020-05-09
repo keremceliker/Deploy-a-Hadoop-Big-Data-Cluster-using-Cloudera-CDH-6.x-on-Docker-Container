@@ -99,7 +99,7 @@ Set hostname by NMTUI or vi /etc/hosts
 ![aws-diagram](images/31.JPG)
 
 
-3- **Create a Docker Container on Linux VM for Boot-Strap Process
+3- **Create a Docker Container on Linux VM for Boot-Strap Process**
 ```
 $ sudo apt-get update
 $ sudo apt-get install docker-ce docker-ce-cli containerd.io
@@ -109,7 +109,7 @@ $ sudo docker run hello-world (for Verify to correctly running Docker Contaianer
 
 ```
 
-4- **Install MySql Community Release & Connector Java on Linux VM
+4- **Install MySql Community Release & Connector Java on Linux VM**
 ```
 [root@keremdevops-]# wget https://downloads.mysql.com/archives/c-j/...tar.gz
 [root@keremdevops-]# wget https://dev.mysql.com/downloads/mysql/5.7.html?os=src
@@ -125,7 +125,7 @@ Don't Forget Login MySQL Test Access !
 ![aws-diagram](images/mysql.JPG)
 
 
-5- **Install the Hadoop Cluster by Cloudera CDH
+5- **Install the Hadoop Cluster by Cloudera CDH**
 ```
 We use one of the nodes as a database server. The database can be oracle, PostgreSql, or MySql. 
 My preference is MySql but you can use it on PostgreSQL,MongoDB,MariaDB
@@ -138,7 +138,7 @@ My preference is MySql but you can use it on PostgreSQL,MongoDB,MariaDB
 [root@keremdevops-]# sudo ./cloudera-manager-installer.bin --skip_repo_package=1 <<< If you want to skip repos, just use it then 
 Why would you like to skip ??  => If you re behind firewall with no internet access ! :-)
 ```
-6- **Access the Hadoop Namenode via Cloudera Manager
+6- **Access the Hadoop Namenode via Cloudera Manager**
 ```
 [root@keremdevops-]# sudo systemctl start cloudera-scm-server
 http://localhost:7180 for Login to Cloudera Manager Dashboard
@@ -149,7 +149,7 @@ Username: Admin | Password: Admin
 
 
 ```
-7- **Final Configuration and Start Hadoop Sandbox Cloudera CDH 
+7- **Final Configuration and Start Hadoop Sandbox Cloudera CDH**
 
 - Cloudera agents must be installed on all Hadoop Nodes to be included in the Cluster by Cloudera Manager 
 - In the other 8 steps from Cloudera Manager as the follows image below, the required configurayon information is filled in according to the customer's request and the installation is completed
@@ -160,7 +160,7 @@ At this point deployment of all services will complete with a final configuratio
 
 
  
-8- **Download Test-Big Data Database & First-Initialization Apache Spark on Cloudera Hadoop Cluster 
+8- **Download Test-Big Data Database & First-Initialization Apache Spark on Cloudera Hadoop Cluster** 
 ```
 [root@keremdevops-]# sudo yum install epel-release 
 [root@keremdevops-]# sudo yum install p7zip p7zip-plugins
@@ -178,7 +178,7 @@ Upload the All Result file into the root of HDFS
 ![aws-diagram](images/spark_ui.JPG)
 
 
-Finally, you have a fully functional, a Hadoop Cluster installed using Cloudera CDH !
+## Finally, you have a fully functional, a Hadoop Cluster installed using Cloudera CDH !
 
 
 ![aws-diagram](images/27.JPG)
