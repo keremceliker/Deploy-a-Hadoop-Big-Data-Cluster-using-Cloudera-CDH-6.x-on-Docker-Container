@@ -136,8 +136,9 @@ My preference is MySql but you can use it on PostgreSQL,MongoDB,MariaDB
 [root@keremdevops-]# chmod u+x cloudera-manager-installer.bin
 [root@keremdevops-]# sudo ./cloudera-manager-installer.bin for Install Cloudera Manager packages from the Internet
 [root@keremdevops-]# sudo ./cloudera-manager-installer.bin --skip_repo_package=1 <<< If you want to skip repos, just use it then 
-Why would you like to skip ??  => If you re behind firewall with no internet access ! :-)
 ```
+Why would you like to skip ??  => If you re behind firewall with no internet access ! :-)
+
 6- **Access the Hadoop Namenode via Cloudera Manager**
 
 ![aws-diagram](images/22.JPG)
