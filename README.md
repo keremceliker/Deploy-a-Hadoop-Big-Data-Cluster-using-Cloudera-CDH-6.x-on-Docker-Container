@@ -177,11 +177,11 @@ Upload the All Result file into the root of HDFS
 ![aws-diagram](images/spark_ui.JPG)
 
 
-## Finally, you have a fully functional, a Hadoop Cluster installed using Cloudera CDH !
+## Finally, you have a fully functional for POC, a Hadoop Cluster installed using Cloudera CDH !
 
 
 ![aws-diagram](images/27.JPG)
 
 
-
+**It's Cool and Fun, huh ? :-) Big Data and Machine Learning will no-doubtedly be so important to all of us now and beyond for sure !**
 
