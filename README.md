@@ -186,8 +186,16 @@ Upload the All Result file into the root of HDFS
 
 ## References
 
-https://www.cloudera.com/
-https://www.cloudera.com/products/open-source/apache-hadoop.html
-https://hadoop.apache.org/docs/current/hadoop-project-dist/hadoop-hdfs/HdfsDesign.html
+> https://www.cloudera.com/
+
+> https://www.cloudera.com/products/open-source/apache-hadoop.html
+
+> https://hadoop.apache.org/docs/current/hadoop-project-dist/hadoop-hdfs/HdfsDesign.html
+
+> https://storagehub.vmware.com/t/cloudera-distribution-including-apache-hadoop-on-vmware-vsan-tm/
+
+> https://access.redhat.com/ecosystem/software/2112531
+
+> https://spark.apache.org/examples.html
 
 
