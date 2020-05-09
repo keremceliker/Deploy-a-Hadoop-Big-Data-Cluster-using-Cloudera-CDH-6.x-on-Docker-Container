@@ -181,7 +181,9 @@ Upload the All Result file into the root of HDFS
 
 ## Result
 
-**It's Cool and Fun, huh ? :-) Big Data and Machine Learning will no-doubtedly be so important to all of us now and beyond for sure !**
+**It's Cool and Fun, huh ? :-) 
+
+**Big Data and Machine Learning will no-doubtedly be so important to all of us today and beyond for sure !**
 
 
 ## References
